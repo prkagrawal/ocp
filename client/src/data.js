@@ -18,7 +18,7 @@ const data = {
       image: '/images/p2.svg',
       price: 100,
       brand: 'Adidas',
-      rating: 4.0,
+      rating: 5.0,
       numReviews: 10,
       description: 'high quality product',
     },
