@@ -10,6 +10,7 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: 'high quality product',
+      countInStock: 20,
     },
     {
       _id: '2',
@@ -21,6 +22,7 @@ const data = {
       rating: 5.0,
       numReviews: 10,
       description: 'high quality product',
+      countInStock: 10,
     },
     {
       _id: '3',
@@ -29,9 +31,10 @@ const data = {
       image: '/images/p3.svg',
       price: 220,
       brand: 'Lacoste',
-      rating: 4.8,
+      rating: 3.8,
       numReviews: 17,
       description: 'high quality product',
+      countInStock: 0,
     },
     {
       _id: '4',
@@ -40,9 +43,10 @@ const data = {
       image: '/images/p4.svg',
       price: 78,
       brand: 'Nike',
-      rating: 4.5,
+      rating: 4.2,
       numReviews: 14,
       description: 'high quality product',
+      countInStock: 16,
     },
     {
       _id: '5',
@@ -51,9 +55,10 @@ const data = {
       image: '/images/p5.svg',
       price: 65,
       brand: 'Puma',
-      rating: 4.5,
+      rating: 3.5,
       numReviews: 10,
       description: 'high quality product',
+      countInStock: 1,
     },
     {
       _id: '6',
@@ -65,6 +70,7 @@ const data = {
       rating: 4.5,
       numReviews: 15,
       description: 'high quality product',
+      countInStock: 100,
     },
   ],
 };

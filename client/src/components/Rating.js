@@ -14,7 +14,6 @@ export default function Rating (props) {
                             : 'fa fa-star-o'
                     }
                 ></i>
-                <i className='fa fa-home'></i>
                 <i
                     className={
                         rating >= 2
