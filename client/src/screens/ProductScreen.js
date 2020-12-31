@@ -17,6 +17,7 @@ export default function ProductScreen (props) {
             <div className="row top">
                 <div className="col-2">
                     <img className="large" src={product.image} alt={product.name} />
+                    {console.log(product.image)}
                 </div>
                 <div className="col-1">
                     <ul>
@@ -52,7 +53,7 @@ export default function ProductScreen (props) {
                                         {product.countInStock > 0 ? (
                                             <span className="success">In Stock</span>
                                         ) : (
-                                            <span className="error">Unavailable</span>
+                                            <span className="danger">Unavailable</span>
                                         )}
                                     </div>
                                 </div>

@@ -1,5 +1,11 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+
+const { data } = require('./data');
+
+// use middlewares
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Welcome to ocp api')
